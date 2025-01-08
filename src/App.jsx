@@ -14,8 +14,9 @@ function App() {
 
         <main>
           <Post
-            title="Carlos Padrão"
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae."
+          />
+
+          <Post
           />
         </main>
       </div>
