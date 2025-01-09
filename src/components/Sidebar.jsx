@@ -6,7 +6,7 @@ import styles from './Sidebar.module.css';
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
-      <img class={styles.cover} src="https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=50&w=500&auto" alt="Foto de capa" />
+      <img className={styles.cover} src="https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=50&w=500&auto" alt="Foto de capa" />
 
       <div className={styles.profile}>
         <Avatar
