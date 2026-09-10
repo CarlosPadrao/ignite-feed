@@ -47,7 +47,7 @@ function App() {
           {posts.map((post,index) => {
             return (
               <Post
-                // id={post.id}
+                id={post.id}
                 key={index}
                 author={post.author}
                 content={post.content}
